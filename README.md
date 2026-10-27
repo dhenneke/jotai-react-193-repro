@@ -6,7 +6,7 @@ value.
 
 ## Related issue
 
-Issue: `#TODO` (replace with the issue number after creating it)
+Related discussion: [pmndrs/jotai#3381](https://github.com/pmndrs/jotai/discussions/3381)
 
 ## Run
 
