@@ -4,6 +4,10 @@ A minimal Vitest + JSX component test reproducing React 19.3's development
 warning when Jotai `useAtomValue` suspends on a promise and later reads a plain
 value.
 
+The `plainReact.test.jsx` test exercises the same suspend-then-skip pattern
+using only React, with no Jotai imports. `asyncAtom.test.jsx` demonstrates it
+through Jotai's `useAtomValue`.
+
 ## Related issue
 
 Related discussion: [pmndrs/jotai#3381](https://github.com/pmndrs/jotai/discussions/3381)
